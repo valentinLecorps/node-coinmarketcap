@@ -1,14 +1,21 @@
 {
   "name": "node-coinmarketcap-api",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Nodejs wrapper for coin market cap API",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Valentin LECORPS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentinLecorps/node-coinmarketcap.git"
+  },
+  "author": "Valentin LECORPS <valentin.lecorps@gmail.com> (https://github.com/valentinLecorps)",
   "license": "MIT",
-  "dependencies": {
-    "request": "^2.81.0"
-  }
+  "bugs": {
+    "url": "https://github.com/valentinLecorps/node-coinmarketcap/issues"
+  },
+  "homepage": "https://github.com/valentinLecorps/node-coinmarketcap#readme"
 }
