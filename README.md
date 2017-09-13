@@ -7,7 +7,7 @@ This is an asynchronous node.js client for the CoinMarketCap API. It exposes all
 
 ## Installation
 
-`npm install node-horseman`
+`npm i node-coinmarketcap-api`
 
 ## Methods
 
