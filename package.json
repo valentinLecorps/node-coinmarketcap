@@ -1,6 +1,6 @@
 {
   "name": "node-coinmarketcap-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nodejs wrapper for coin market cap API",
   "main": "index.js",
   "dependencies": {
