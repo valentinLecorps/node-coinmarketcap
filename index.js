@@ -14,7 +14,7 @@ module.exports = class Coinmarketcap {
             if (limit && isNaN(limit)) return reject(new Error('Invalid \'limit\' parameter.'));
             var qs = {};
             if (convert) qs.convert = convert.toUpperCase();
-            if (limit) qs.limit = limit;
+            qs.limit = limit || 0;
             request.get({
                 url: cmc_url + 'ticker/' + (currency ? currency : ''),
                 qs: qs,
