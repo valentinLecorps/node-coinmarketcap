@@ -27,7 +27,7 @@ return an array with all available currencies for 'convert' parameter.
 ## Example usage
 
 ```javascript
-const Coinmarketcap = require('node-coinmarketcap');
+const Coinmarketcap = require('node-coinmarketcap-api');
 const coinmarketcap = new Coinmarketcap();
 
 (async () => {
@@ -115,5 +115,5 @@ const coinmarketcap = new Coinmarketcap();
 })();
 ```
 
-BTC donation address: `1KJbPzjR9xUQumAFX8x7x7eRFADF1EwYic` <br>
+BTC donation address: `3FopcPnDHXcR83qyMUyt5gE9u3WXkxgVUs` <br>
 ETH donation address: `0xF90150a16b2Faee858426f23bbC76AF5BD88503a`
